@@ -76,20 +76,6 @@ public class BotWeaponSync : MonoBehaviour
                 inventory.LoadDefaultLoadout();
             }
 
-            // Method 3: Equip first item
-            if (inventory != null)
-            {
-                var item = inventory.GetActiveItem(0);
-                if (item == null)
-                {
-                    item = inventory.GetItem(0, 0);
-                    if (item != null)
-                    {
-                        inventory.EquipItem(item, -1);
-                    }
-                }
-            }
-
             // Check if we succeeded
             if (items.Length > 0)
             {
@@ -108,6 +94,10 @@ public class BotWeaponSync : MonoBehaviour
                     weaponsInitialized = true;
                     Debug.Log($"[BotWeaponSync] Successfully initialized weapons for {gameObject.name} on attempt {initAttempts}");
                     CancelInvoke("TryInitializeWeapons");
+                }
+                else
+                {
+                    Debug.Log($"[BotWeaponSync] Attempt {initAttempts} - No active items yet for {gameObject.name}");
                 }
             }
         }
