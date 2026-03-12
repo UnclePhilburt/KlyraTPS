@@ -2,6 +2,7 @@ using UnityEngine;
 using Photon.Pun;
 using Opsive.UltimateCharacterController.Character;
 using Opsive.UltimateCharacterController.Inventory;
+using Opsive.UltimateCharacterController.Items;
 using Opsive.UltimateCharacterController.AddOns.Multiplayer.PhotonPun.Character;
 
 /// <summary>
@@ -13,13 +14,16 @@ public class BotWeaponSync : MonoBehaviour
     private PhotonView photonView;
     private PunCharacter punCharacter;
     private InventoryBase inventory;
+    private UltimateCharacterLocomotion characterLocomotion;
     private bool weaponsInitialized = false;
+    private float initAttempts = 0;
 
     void Start()
     {
         photonView = GetComponent<PhotonView>();
         punCharacter = GetComponent<PunCharacter>();
         inventory = GetComponent<InventoryBase>();
+        characterLocomotion = GetComponent<UltimateCharacterLocomotion>();
 
         if (photonView == null)
         {
@@ -27,45 +31,96 @@ public class BotWeaponSync : MonoBehaviour
             return;
         }
 
-        // Initialize weapons after a short delay
-        Invoke("InitializeWeapons", 0.5f);
+        // Try multiple times with increasing delays
+        InvokeRepeating("TryInitializeWeapons", 0.1f, 0.2f);
     }
 
-    void InitializeWeapons()
+    void TryInitializeWeapons()
     {
-        if (weaponsInitialized) return;
-        weaponsInitialized = true;
-
-        if (photonView.IsMine)
+        if (weaponsInitialized)
         {
-            // On the owner (Master Client), load the default loadout
+            CancelInvoke("TryInitializeWeapons");
+            return;
+        }
+
+        initAttempts++;
+
+        // Give up after 10 attempts (2 seconds)
+        if (initAttempts > 10)
+        {
+            Debug.LogWarning($"[BotWeaponSync] Failed to initialize weapons for {gameObject.name} after 10 attempts");
+            CancelInvoke("TryInitializeWeapons");
+            return;
+        }
+
+        // On remote clients (non-master), force weapon visibility
+        if (!photonView.IsMine)
+        {
+            // Method 1: Pickup all items
+            var items = GetComponentsInChildren<CharacterItem>(true);
+            if (items.Length > 0)
+            {
+                Debug.Log($"[BotWeaponSync] Found {items.Length} items on {gameObject.name}");
+                foreach (var item in items)
+                {
+                    if (item != null && !item.IsActive())
+                    {
+                        item.Pickup();
+                    }
+                }
+            }
+
+            // Method 2: Load default loadout
             if (inventory != null)
             {
                 inventory.LoadDefaultLoadout();
+            }
 
-                // Tell other clients to load weapons too
-                if (punCharacter != null)
+            // Method 3: Equip first item
+            if (inventory != null)
+            {
+                var item = inventory.GetActiveItem(0);
+                if (item == null)
                 {
-                    punCharacter.LoadDefaultLoadout();
+                    item = inventory.GetItem(0, 0);
+                    if (item != null)
+                    {
+                        inventory.EquipItem(item, -1);
+                    }
+                }
+            }
+
+            // Check if we succeeded
+            if (items.Length > 0)
+            {
+                bool hasActiveItem = false;
+                foreach (var item in items)
+                {
+                    if (item != null && item.IsActive())
+                    {
+                        hasActiveItem = true;
+                        break;
+                    }
+                }
+
+                if (hasActiveItem)
+                {
+                    weaponsInitialized = true;
+                    Debug.Log($"[BotWeaponSync] Successfully initialized weapons for {gameObject.name} on attempt {initAttempts}");
+                    CancelInvoke("TryInitializeWeapons");
                 }
             }
         }
         else
         {
-            // On remote clients, ensure items are picked up
-            var items = GetComponentsInChildren<Opsive.UltimateCharacterController.Items.CharacterItem>(true);
-            for (int i = 0; i < items.Length; ++i)
-            {
-                items[i].Pickup();
-            }
-
-            // Load default loadout
+            // On owner (Master Client), just load default loadout once
             if (inventory != null)
             {
                 inventory.LoadDefaultLoadout();
+                weaponsInitialized = true;
+                CancelInvoke("TryInitializeWeapons");
+                Debug.Log($"[BotWeaponSync] Loaded default loadout for {gameObject.name} (Owner)");
             }
         }
-
-        Debug.Log($"[BotWeaponSync] Initialized weapons for {gameObject.name}. Owner: {photonView.IsMine}");
     }
 }
