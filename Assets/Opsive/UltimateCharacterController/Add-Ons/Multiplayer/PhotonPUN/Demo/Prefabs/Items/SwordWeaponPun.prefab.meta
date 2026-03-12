@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7916383846fc30648bb475537bf0d340
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/SwordWeaponPun.prefab
+  uploadId: 837612

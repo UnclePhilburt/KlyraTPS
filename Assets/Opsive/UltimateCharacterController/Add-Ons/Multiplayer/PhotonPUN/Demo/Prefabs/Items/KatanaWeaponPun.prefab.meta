@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f2357980cad3b06429371fca1e2b51c9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/KatanaWeaponPun.prefab
+  uploadId: 837612

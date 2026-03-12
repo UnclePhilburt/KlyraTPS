@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2686260016532976365
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 697715922134446507, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577]
+      value: Opsive.UltimateCharacterController Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable.InfiniteAmmo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578]
+      value: Opsive.UltimateCharacterController Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable.ItemAmmo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_AmmoModuleGroup.m_Modules.Array.data[0]
+      value: 6414610655020056577
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_AmmoModuleGroup.m_Modules.Array.data[1]
+      value: 6414610655020056578
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_ID
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_ID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_DropOption
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_AmmoItemDefinition
+      value: 
+      objectReference: {fileID: 114575177125770392, guid: 16d30180d9012ca48889477ac8da5303,
+        type: 2}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_SharedAmmoItemIdentifier
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[0].m_Name
+      value: Pistol_Ammo_Infinite
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[1].m_Name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[0].m_Name
+      value: Pistol_Ammo_Item
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[1].m_Name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[0].m_Preset
+      value: 
+      objectReference: {fileID: 11400000, guid: c5eeb10beea1c694da3a8398a55127bf,
+        type: 2}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[1].m_Preset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[0].m_Preset
+      value: 
+      objectReference: {fileID: 11400000, guid: 6def7d7b611d958499ad5abc847604e0,
+        type: 2}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[1].m_Preset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_Bindings.m_Bindings.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[0].m_Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[1].m_Default
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_Bindings.m_Bindings.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[0].m_Default
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[1].m_Default
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[0].m_BlockList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056577].m_States.Array.data[1].m_BlockList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[0].m_BlockList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1528254883820834975, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056578].m_States.Array.data[1].m_BlockList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3716284058171587226, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_Name
+      value: PistolWeaponRightPun
+      objectReference: {fileID: 0}
+    - target: {fileID: 8697936077917333519, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_DropPrefab
+      value: 
+      objectReference: {fileID: 5538726857669815119, guid: 3867330f1da02d74cb1f06849a4c47be,
+        type: 3}
+    - target: {fileID: 8697936077917333519, guid: 553bd82b2dacd2f4d98afc55e35d675e,
+        type: 3}
+      propertyPath: m_ItemDefinition
+      value: 
+      objectReference: {fileID: 114982450061250758, guid: 16d30180d9012ca48889477ac8da5303,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 553bd82b2dacd2f4d98afc55e35d675e, type: 3}

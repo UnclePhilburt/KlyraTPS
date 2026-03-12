@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 16ca223283c30f14b873a55c768d29d3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/Projectiles/ArrowProjectilePun.prefab
+  uploadId: 837612

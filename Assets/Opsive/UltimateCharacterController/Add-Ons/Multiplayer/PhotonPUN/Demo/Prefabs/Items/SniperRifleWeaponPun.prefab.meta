@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e03ca7e0773753d44adff519dc8fc86c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/SniperRifleWeaponPun.prefab
+  uploadId: 837612

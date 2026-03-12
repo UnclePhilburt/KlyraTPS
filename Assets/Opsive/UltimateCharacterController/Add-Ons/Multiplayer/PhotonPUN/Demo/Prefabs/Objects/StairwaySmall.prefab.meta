@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8bee7a5bd1918554db0e550918ce06c3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Objects/StairwaySmall.prefab
+  uploadId: 837612

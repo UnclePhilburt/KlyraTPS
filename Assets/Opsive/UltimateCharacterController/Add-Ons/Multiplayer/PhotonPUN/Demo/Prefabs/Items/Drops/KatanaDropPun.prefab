@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1561262222572063542
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408877974285770001, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411290625623894913, guid: ef80bb3e228b7634baf2554327ccbd15,
+        type: 3}
+      propertyPath: m_Name
+      value: KatanaDrop Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 4370977243060099469, guid: ef80bb3e228b7634baf2554327ccbd15, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ef80bb3e228b7634baf2554327ccbd15, type: 3}
+--- !u!1 &2923604491388821687 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4411290625623894913, guid: ef80bb3e228b7634baf2554327ccbd15,
+    type: 3}
+  m_PrefabInstance: {fileID: 1561262222572063542}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1492018897120962202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2923604491388821687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc2faabb33443b46ba1560bfd7c11cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeActiveState: 1
+  m_SynchronizePosition: 0
+  m_SynchronizeRotation: 0
+  m_SynchronizeScale: 0
+--- !u!114 &2458005354248258838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2923604491388821687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b6905e922e434498992c14ceb7a4ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TriggerEnableDelay: 4
+  m_PickupOnTriggerEnter: 0
+  m_RotationSpeed: {x: 0, y: 0, z: 0}
+  m_PickupAudioClipSet:
+    m_AudioConfig: {fileID: 11400000, guid: 295fe50b0c6c59d458d3bff429c55e2b, type: 2}
+    m_AudioClips: []
+  m_PickupMessageText: Picked up a Katana
+  m_PickupMessageIcon: {fileID: 0}
+  m_AlwaysPickup: 0
+  m_Equip: 1
+  m_ItemSetGroup: -1
+  m_ItemSetName: 
+  m_ItemDefinitionAmounts: []
+--- !u!114 &8564499756520041054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2923604491388821687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 1492018897120962202}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

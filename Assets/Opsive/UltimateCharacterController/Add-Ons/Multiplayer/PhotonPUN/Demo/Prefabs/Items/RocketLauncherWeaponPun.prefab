@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4311450244977519087
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1428629054871778, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_Name
+      value: RocketLauncherWeaponPun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4203211252901098, guid: 63dd4c58a395543429ba6671b39de820, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114308873410492626, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: m_DropPrefab
+      value: 
+      objectReference: {fileID: 5178855389122089800, guid: cedb3b75c35f6e748a2ff56fa6c7c9d3,
+        type: 3}
+    - target: {fileID: 114308873410492626, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: m_ItemDefinition
+      value: 
+      objectReference: {fileID: 114980215125769966, guid: 16d30180d9012ca48889477ac8da5303,
+        type: 2}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576]
+      value: Opsive.UltimateCharacterController Opsive.UltimateCharacterController.Items.Actions.Modules.Shootable.ItemAmmo
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: m_AmmoModuleGroup.m_Modules.Array.data[0]
+      value: 6414610655020056576
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_ID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_Name
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[1500199642018611278].m_Projectile
+      value: 
+      objectReference: {fileID: 6906792530371161703, guid: a7443dade080ec844985152eb8b5ce53,
+        type: 3}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_DropOption
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_States.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_AmmoItemDefinition
+      value: 
+      objectReference: {fileID: 114670242716888252, guid: 16d30180d9012ca48889477ac8da5303,
+        type: 2}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_SharedAmmoItemIdentifier
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_States.Array.data[0].m_Name
+      value: Default
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_States.Array.data[0].m_Preset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_Bindings.m_Bindings.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_States.Array.data[0].m_Default
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632448693351702122, guid: 63dd4c58a395543429ba6671b39de820,
+        type: 3}
+      propertyPath: managedReferences[6414610655020056576].m_States.Array.data[0].m_BlockList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 63dd4c58a395543429ba6671b39de820, type: 3}

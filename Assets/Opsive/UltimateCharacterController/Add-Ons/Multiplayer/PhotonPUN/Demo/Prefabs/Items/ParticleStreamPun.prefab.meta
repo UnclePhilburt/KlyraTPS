@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 55a0050b97145cb429a9fa73d9236aba
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/ParticleStreamPun.prefab
+  uploadId: 837612

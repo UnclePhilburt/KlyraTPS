@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ace37b11d55df4b4a997255bf4f1e574
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/Drops/FlashlightDropPun.prefab
+  uploadId: 837612

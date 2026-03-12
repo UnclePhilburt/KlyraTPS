@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2ed2aca59f8cc704c94538c5542449c9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Inventory/ItemSetRules/SimpleRules/SwordAndShieldItemSetRule.asset
+  uploadId: 837612

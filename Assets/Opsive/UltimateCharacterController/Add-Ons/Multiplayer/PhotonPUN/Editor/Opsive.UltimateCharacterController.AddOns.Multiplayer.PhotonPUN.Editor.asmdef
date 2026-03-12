@@ -1,0 +1,24 @@
+{
+    "name": "Opsive.UltimateCharacterController.AddOns.Multiplayer.PhotonPUN.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f8496e454d2ffc43bb37ceda750b181",
+        "GUID:cb7ef9d091ef9704cac35413bf140440",
+        "GUID:20dfc4c7578775b408501a7e6bd820e7",
+        "GUID:bbb15c76beca87041af309d0035105a2",
+        "GUID:d8e89a79cd8df884b8d5b3356783eb74",
+        "GUID:831409e8f9d13b5479a3baef9822ad34",
+        "GUID:57c32fc907df0f54e8e6e8f0d2488336"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

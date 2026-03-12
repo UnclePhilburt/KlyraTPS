@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3867330f1da02d74cb1f06849a4c47be
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/Drops/PistolDropPun.prefab
+  uploadId: 837612

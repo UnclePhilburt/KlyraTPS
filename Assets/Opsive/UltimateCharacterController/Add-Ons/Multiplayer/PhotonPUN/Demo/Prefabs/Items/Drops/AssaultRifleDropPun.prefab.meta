@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d562a5ba0e2232b45b9d924515b97e59
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/Drops/AssaultRifleDropPun.prefab
+  uploadId: 837612

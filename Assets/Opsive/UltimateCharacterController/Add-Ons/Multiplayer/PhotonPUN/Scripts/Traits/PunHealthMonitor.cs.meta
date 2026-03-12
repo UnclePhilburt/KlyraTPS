@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 9f92a176abf19704d9d75ed0df6b9f87
+timeCreated: 1558375479
+licenseType: Store
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Scripts/Traits/PunHealthMonitor.cs
+  uploadId: 837612

@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1697733921946288012
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7329485562326560827, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_Name
+      value: BowDropPun
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7331044741600362629, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8228042597155893359, guid: d27905bfc3bb2284fb06fd9381d5c213,
+        type: 3}
+      propertyPath: m_ImpactLayers.m_Bits
+      value: 201326883
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7215992374687047675, guid: d27905bfc3bb2284fb06fd9381d5c213, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: d27905bfc3bb2284fb06fd9381d5c213, type: 3}
+--- !u!1 &8230328632223535031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7329485562326560827, guid: d27905bfc3bb2284fb06fd9381d5c213,
+    type: 3}
+  m_PrefabInstance: {fileID: 1697733921946288012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2085688909994007318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230328632223535031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc2faabb33443b46ba1560bfd7c11cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeActiveState: 1
+  m_SynchronizePosition: 0
+  m_SynchronizeRotation: 0
+  m_SynchronizeScale: 0
+--- !u!114 &3972316083729500249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230328632223535031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b6905e922e434498992c14ceb7a4ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TriggerEnableDelay: 4
+  m_PickupOnTriggerEnter: 0
+  m_RotationSpeed: {x: 0, y: 0, z: 0}
+  m_PickupAudioClipSet:
+    m_AudioConfig: {fileID: 11400000, guid: 295fe50b0c6c59d458d3bff429c55e2b, type: 2}
+    m_AudioClips: []
+  m_PickupMessageText: Picked up Bow and Arrow
+  m_PickupMessageIcon: {fileID: 0}
+  m_OnSelect:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnDeselect:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DestroyDelay: 0
+  m_AlwaysPickup: 0
+  m_Equip: 1
+  m_ItemSetGroup: -1
+  m_ItemSetName: 
+  m_ItemDefinitionAmounts: []
+--- !u!114 &7740767368833666175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230328632223535031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 2085688909994007318}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

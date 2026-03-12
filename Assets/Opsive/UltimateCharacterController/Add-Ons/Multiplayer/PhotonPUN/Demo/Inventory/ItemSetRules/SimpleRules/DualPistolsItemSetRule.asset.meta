@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a5bd05885615474ea74b78da6d722de
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Inventory/ItemSetRules/SimpleRules/DualPistolsItemSetRule.asset
+  uploadId: 837612

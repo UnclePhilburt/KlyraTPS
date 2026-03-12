@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 1eca7e0b5a8a568499906229c648d8a4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/FragGrenadeWeaponRightPun.prefab
+  uploadId: 837612

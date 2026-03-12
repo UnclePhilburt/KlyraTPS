@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 3fe29edc9c88c134d85869d76b5447fa
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Prefabs/Items/Projectiles/FireballProjectilePun.prefab
+  uploadId: 837612

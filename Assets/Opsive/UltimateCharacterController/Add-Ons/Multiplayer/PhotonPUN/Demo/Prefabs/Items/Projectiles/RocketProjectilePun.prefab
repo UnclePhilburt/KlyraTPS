@@ -1,0 +1,224 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2834584071870069805
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8687351354967167562, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_Name
+      value: RocketProjectilePun
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -22.240168
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5396936
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.181174
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8689933921127552510, guid: 384422469aeb2f94896f642a28adca46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8727031215904287716, guid: 384422469aeb2f94896f642a28adca46, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 384422469aeb2f94896f642a28adca46, type: 3}
+--- !u!1 &6906792530371161703 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8687351354967167562, guid: 384422469aeb2f94896f642a28adca46,
+    type: 3}
+  m_PrefabInstance: {fileID: 2834584071870069805}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2030030843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906792530371161703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ba2df5ce8678248b29c9493d93767b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InitializeOnEnable: 0
+  m_Mass: 1
+  m_StartVelocityMultiplier: 1
+  m_GravityMagnitude: 0
+  m_Speed: 1
+  m_RotationSpeed: 1
+  m_Damping: 0.1
+  m_RotationDamping: 0.1
+  m_RotateInMoveDirection: 0
+  m_SettleThreshold: 0
+  m_SidewaysSettleThreshold: 0.75
+  m_StartSidewaysVelocityMagnitude: 3
+  m_ImpactLayers:
+    serializedVersion: 2
+    m_Bits: 2415919083
+  m_SurfaceImpact: {fileID: 0}
+  m_ForceMultiplier: 40
+  m_CollisionMode: 0
+  m_ReflectMultiplier: 1
+  m_MaxCollisionCount: 5
+  m_MaxPositionCount: 150
+  m_ActiveAudioClipSet:
+    m_AudioConfig: {fileID: 0}
+    m_AudioClips: []
+  m_DisableColliderOnImpact: 1
+  m_StickyLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_DestroyOnCollision: 1
+  m_WaitForParticleStop: 0
+  m_DestructionDelay: 0
+  m_SpawnedObjectsOnDestruction:
+  - m_Object: {fileID: 3758178115404546677, guid: 25509d19bb4e28046a7363cd6b9c6415,
+      type: 3}
+    m_Probability: 1
+    m_RandomSpin: 0
+  m_DefaultImpactDamageData:
+    m_LayerMask:
+      serializedVersion: 2
+      m_Bits: 2415919083
+    m_DamageProcessor: {fileID: 0}
+    m_DamageAmount: 10
+    m_ImpactForce: 2
+    m_ImpactForceFrames: 15
+    m_ImpactRadius: 0
+    m_ImpactStateName: 
+    m_ImpactStateDisableTimer: 10
+    m_SurfaceImpact: {fileID: 0}
+  m_InternalImpact: 1
+  m_ImpactActionGroup:
+    m_ImpactActions:
+    - rid: 6414610655020056581
+    - rid: 6414610655020056582
+    - rid: 6414610655020056583
+  m_Lifespan: 10
+  references:
+    version: 2
+    RefIds:
+    - rid: 6414610655020056581
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_Delay: 0
+        m_AllowMultiHits: 0
+        m_UseContextData: 1
+        m_SetDamageImpactData: 1
+        m_InvokeOnObjectImpact: 0
+        m_DamageProcessor: {fileID: 0}
+        m_DamageAmount: 10
+        m_ImpactForce: 2
+        m_ImpactForceFrames: 15
+        m_ImpactRadius: 0
+    - rid: 6414610655020056582
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_Delay: 0
+        m_AllowMultiHits: 0
+        m_UseContextData: 1
+        m_SurfaceImpact: {fileID: 0}
+    - rid: 6414610655020056583
+      type: {class: ImpactEvent, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_Delay: 0
+        m_AllowMultiHits: 0
+        m_CallImpactCallbackOnOriginator: 1
+        m_CallImpactCallbackOnTarget: 1
+--- !u!114 &2030030844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6906792530371161703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4064412281145203527
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1315042273151818, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_Name
+      value: FragGrenadeProjectilePun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4250028106724036, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114803698631390852, guid: 47daba230e0228c499c8fcbe81ced468,
+        type: 3}
+      propertyPath: m_ImpactLayers.m_Bits
+      value: 3422552321
+      objectReference: {fileID: 0}
+    - target: {fileID: 114803698631390852, guid: 47daba230e0228c499c8fcbe81ced468,
+        type: 3}
+      propertyPath: m_StickyLayers.m_Bits
+      value: 201326851
+      objectReference: {fileID: 0}
+    - target: {fileID: 114803698631390852, guid: 47daba230e0228c499c8fcbe81ced468,
+        type: 3}
+      propertyPath: m_DefaultImpactDamageData.m_LayerMask.m_Bits
+      value: 2348810531
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114803698631390852, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 47daba230e0228c499c8fcbe81ced468, type: 3}
+--- !u!4 &2797036272020555046 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2213133034730692193, guid: 47daba230e0228c499c8fcbe81ced468,
+    type: 3}
+  m_PrefabInstance: {fileID: 4064412281145203527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &4063123627202793485 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1315042273151818, guid: 47daba230e0228c499c8fcbe81ced468,
+    type: 3}
+  m_PrefabInstance: {fileID: 4064412281145203527}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5140415396610938521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4063123627202793485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14465b1b126fbeb43a3699fa99b28e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InitializeOnEnable: 0
+  m_Mass: 1
+  m_StartVelocityMultiplier: 1
+  m_GravityMagnitude: 9.8
+  m_Speed: 1
+  m_RotationSpeed: 5
+  m_Damping: 0.1
+  m_RotationDamping: 0.1
+  m_RotateInMoveDirection: 0
+  m_SettlePositionThreshold: 0.01
+  m_SettleRotationThreshold: 0.01
+  m_SidewaysSettleThreshold: 0.75
+  m_StartSidewaysVelocityMagnitude: 3
+  m_ImpactLayers:
+    serializedVersion: 2
+    m_Bits: 2348810529
+  m_SurfaceImpact: {fileID: 0}
+  m_ForceMultiplier: 40
+  m_CollisionMode: 1
+  m_ReflectMultiplier: 1
+  m_MaxCollisionCount: 5
+  m_MaxPositionCount: 150
+  m_ActiveAudioClipSet:
+    m_AudioConfig: {fileID: 0}
+    m_AudioClips: []
+  m_DisableColliderOnImpact: 1
+  m_StickyLayers:
+    serializedVersion: 2
+    m_Bits: 268435403
+  m_DestroyOnCollision: 0
+  m_WaitForParticleStop: 0
+  m_DestructionDelay: 0
+  m_SpawnedObjectsOnDestruction:
+  - m_Object: {fileID: 100000, guid: 92822eb9d299b144dbc033cdfc66d4b4, type: 3}
+    m_Probability: 1
+    m_RandomSpin: 0
+  m_DefaultImpactDamageData:
+    m_LayerMask:
+      serializedVersion: 2
+      m_Bits: 2415919083
+    m_DamageProcessor: {fileID: 0}
+    m_DamageAmount: 10
+    m_ImpactForce: 2
+    m_ImpactForceFrames: 15
+    m_ImpactRadius: 0
+    m_ImpactStateName: 
+    m_ImpactStateDisableTimer: 10
+    m_SurfaceImpact: {fileID: 0}
+  m_InternalImpact: 1
+  m_ImpactActionGroup:
+    m_ImpactActions:
+    - rid: 6414610655020056634
+    - rid: 6414610655020056635
+    - rid: 6414610655020056636
+  m_Lifespan: 2
+  m_Pin: {fileID: 2797036272020555046}
+  references:
+    version: 2
+    RefIds:
+    - rid: 6414610655020056634
+      type: {class: SimpleDamage, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_Delay: 0
+        m_AllowMultiHits: 0
+        m_UseContextData: 1
+        m_SetDamageImpactData: 1
+        m_InvokeOnObjectImpact: 0
+        m_DamageProcessor: {fileID: 0}
+        m_DamageAmount: 10
+        m_ImpactForce: 2
+        m_ImpactForceFrames: 15
+        m_ImpactRadius: 0
+        m_ScaleDamageByImpactStrength: 0
+    - rid: 6414610655020056635
+      type: {class: SpawnSurfaceEffect, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_Delay: 0
+        m_AllowMultiHits: 0
+        m_UseContextData: 1
+        m_SurfaceImpact: {fileID: 0}
+    - rid: 6414610655020056636
+      type: {class: ImpactEvent, ns: Opsive.UltimateCharacterController.Items.Actions.Impact,
+        asm: Opsive.UltimateCharacterController}
+      data:
+        m_States:
+        - m_Name: Default
+          m_Preset: {fileID: 0}
+          m_BlockList: []
+          m_Default: 1
+        m_Bindings:
+          m_Bindings: []
+        m_Enabled: 1
+        m_Delay: 0
+        m_AllowMultiHits: 0
+        m_CallImpactCallbackOnOriginator: 1
+        m_CallImpactCallbackOnTarget: 1
+--- !u!114 &5545966024080991380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4063123627202793485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents: []
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0

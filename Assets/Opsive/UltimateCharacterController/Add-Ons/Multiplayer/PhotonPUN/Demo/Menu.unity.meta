@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1382d57a08a6d1546aec02771ce2a1fb
+timeCreated: 1548221796
+licenseType: Store
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 245632
+  packageName: PUN Multiplayer Add-on for Opsive Character Controllers
+  packageVersion: 2.0.12
+  assetPath: Assets/Opsive/UltimateCharacterController/Add-Ons/Multiplayer/PhotonPUN/Demo/Menu.unity
+  uploadId: 837612

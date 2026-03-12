@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7503335026562820288
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1125266473042790, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_Name
+      value: SwordDropPun
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4953141560760804, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114474844924100780, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: f5af721343e0ead4aaf15d9d6afafeea, type: 3}
+--- !u!1 &7503784363967032230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1125266473042790, guid: f5af721343e0ead4aaf15d9d6afafeea,
+    type: 3}
+  m_PrefabInstance: {fileID: 7503335026562820288}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4872981577936129266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503784363967032230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebc2faabb33443b46ba1560bfd7c11cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SynchronizeActiveState: 1
+  m_SynchronizePosition: 0
+  m_SynchronizeRotation: 0
+  m_SynchronizeScale: 0
+--- !u!114 &5427033268519211832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503784363967032230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ObservedComponentsFoldoutOpen: 1
+  Group: 0
+  prefixField: -1
+  Synchronization: 3
+  OwnershipTransfer: 0
+  observableSearch: 2
+  ObservedComponents:
+  - {fileID: 4872981577936129266}
+  sceneViewId: 0
+  InstantiationId: 0
+  isRuntimeInstantiated: 0
+--- !u!114 &7749432352357361139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7503784363967032230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56b6905e922e434498992c14ceb7a4ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TriggerEnableDelay: 4
+  m_PickupOnTriggerEnter: 0
+  m_RotationSpeed: {x: 0, y: 0, z: 0}
+  m_PickupAudioClipSet:
+    m_AudioConfig: {fileID: 11400000, guid: 295fe50b0c6c59d458d3bff429c55e2b, type: 2}
+    m_AudioClips: []
+  m_PickupMessageText: Picked up a Sword
+  m_PickupMessageIcon: {fileID: 0}
+  m_AlwaysPickup: 0
+  m_Equip: 1
+  m_ItemSetGroup: -1
+  m_ItemSetName: 
+  m_ItemDefinitionAmounts: []
